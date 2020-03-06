@@ -16,7 +16,7 @@ def get_japanese_emoticon(file_path, emoticon_english)
 new_variable = load_library(file_path)
 japanese_emoticon = new_variable[:get_emoticon][emoticon_english]
 if !japanese_emoticon 
-  return "Sorry, that emoticon was not found!"
+  return "Sorry, that emoticon was not found"
 end
 end
 
