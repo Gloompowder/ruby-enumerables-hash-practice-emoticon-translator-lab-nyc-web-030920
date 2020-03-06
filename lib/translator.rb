@@ -13,7 +13,7 @@ end
 
 def get_japanese_emoticon(file_path, emoticon)
   # code goes here
-  objects = YAML.load_file(file_path)
+load_library
 end
 
 def get_english_meaning
