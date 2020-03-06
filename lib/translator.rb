@@ -21,6 +21,12 @@ end
 japanese_emoticon
 end
 
-def get_english_meaning(file)
+def get_english_meaning(file_path, japanese_emoticon)
   # code goes here
+  new_variable =  load_library(file_path)
+  english_meaning = new_variable[:get_meaning][japanese_emoticon]
+  if !english_meaning 
+    return "Sorry, that emoticon was not found" 
+  end 
+  english_meaning
 end
