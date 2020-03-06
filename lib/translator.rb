@@ -18,6 +18,7 @@ japanese_emoticon = new_variable[:get_emoticon][emoticon_english]
 if !japanese_emoticon 
   return "Sorry, that emoticon was not found"
 end
+japanese_emoticon
 end
 
 def get_english_meaning
