@@ -21,6 +21,6 @@ end
 japanese_emoticon
 end
 
-def get_english_meaning
+def get_english_meaning(file)
   # code goes here
 end
