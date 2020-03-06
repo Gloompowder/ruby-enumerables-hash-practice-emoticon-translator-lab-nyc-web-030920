@@ -11,7 +11,7 @@ def load_library(file_path)
   hash
 end
 
-def get_japanese_emoticon(file_path, emoticon)
+def get_japanese_emoticon(file_path, emoticon_english)
   # code goes here
 new_variable = load_library(file_path)
 end
