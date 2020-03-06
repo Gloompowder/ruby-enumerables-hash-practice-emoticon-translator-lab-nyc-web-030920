@@ -14,7 +14,8 @@ end
 def get_japanese_emoticon(file_path, emoticon_english)
   # code goes here
 new_variable = load_library(file_path)
-new_key = new_variable[:get_emoticon][emotion]
+japanese_emoticon = new_variable[:get_emoticon][emoticon_english]
+binding.pry
 end
 
 def get_english_meaning
